@@ -5,7 +5,7 @@ LOGGER: Logger = getLogger(__package__)
 
 NAME = "Notion ToDo"
 DOMAIN = "notion_todo"
-VERSION = "0.0.1"
+VERSION = "0.1.0"
 ATTRIBUTION = "Data provided by https://api.notion.com/v1"
 NOTION_URL = "https://api.notion.com/v1"
 NOTION_VERSION = "2022-02-22"

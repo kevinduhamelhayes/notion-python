@@ -1,0 +1,21 @@
+version: '3'
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: ghcr.io/home-assistant/home-assistant:stable
+    volumes:
+      - ./config:/config
+      - ./custom_components:/config/custom_components
+    environment:
+      - TZ=Europe/Madrid
+      - NOTION_TOKEN=${NOTION_TOKEN:-your_notion_integration_token_here}
+      - NOTION_DATABASE_ID=${NOTION_DATABASE_ID:-your_notion_database_id_here}
+    restart: unless-stopped
+    ports:
+      - "8123:8123"
+    networks:
+      - homeassistant
+
+networks:
+  homeassistant:
+    driver: bridge 
