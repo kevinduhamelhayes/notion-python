@@ -6,7 +6,7 @@
 ![Project Maintenance][maintenance-shield]
 [![Community Forum][forum-shield]][forum]
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=JanGiese&repository=notion_todo&category=integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=kevinduhamelhayes&repository=notion-python&category=integration)
 
 Esta integración permite conectar tus tareas de Notion con Home Assistant, permitiéndote gestionar tus tareas desde la interfaz de Home Assistant.
 
@@ -47,8 +47,8 @@ Esta integración permite conectar tus tareas de Notion con Home Assistant, perm
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/TU_USUARIO/notion_todo.git
-   cd notion_todo
+   git clone https://github.com/kevinduhamelhayes/notion-python.git
+   cd notion-python
    ```
 
 2. Inicia el contenedor de Docker:
@@ -105,7 +105,6 @@ Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](L
 
 ## Agradecimientos
 
-- [JanGiese](https://github.com/JanGiese) por la implementación original
 - La comunidad de Home Assistant por su continuo apoyo
 
 **This integration will set up the following platforms.**
@@ -120,14 +119,14 @@ If you want to contribute to this please read the [Contribution guidelines](CONT
 
 ***
 
-[integration_blueprint]: https://github.com/JanGiese/notion_todo
-[commits-shield]: https://img.shields.io/github/commit-activity/y/JanGiese/notion_todo.svg?style=for-the-badge
-[commits]: https://github.com/JanGiese/notion_todo/commits/main
+[integration_blueprint]: https://github.com/kevinduhamelhayes/notion-python
+[commits-shield]: https://img.shields.io/github/commit-activity/y/kevinduhamelhayes/notion-python.svg?style=for-the-badge
+[commits]: https://github.com/kevinduhamelhayes/notion-python/commits/main
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg?style=for-the-badge
 [exampleimg]: example.png
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
 [forum]: https://community.home-assistant.io/
-[license-shield]: https://img.shields.io/github/license/JanGiese/notion_todo.svg?style=for-the-badge
-[maintenance-shield]: https://img.shields.io/badge/maintainer-JanGiese-blue.svg?style=for-the-badge
-[releases-shield]: https://img.shields.io/github/release/JanGiese/notion_todo.svg?style=for-the-badge
-[releases]: https://github.com/JanGiese/notion_todo/releases
+[license-shield]: https://img.shields.io/github/license/kevinduhamelhayes/notion-python.svg?style=for-the-badge
+[maintenance-shield]: https://img.shields.io/badge/maintainer-kevinduhamelhayes-blue.svg?style=for-the-badge
+[releases-shield]: https://img.shields.io/github/release/kevinduhamelhayes/notion-python.svg?style=for-the-badge
+[releases]: https://github.com/kevinduhamelhayes/notion-python/releases
